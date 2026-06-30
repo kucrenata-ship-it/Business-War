@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Minha Empresa</title>
+
+<style>
+
+body{
+
+font-family:Arial;
+
+background:#111827;
+
+color:white;
+
+padding:40px;
+
+}
+
+.card{
+
+background:#1f2937;
+
+padding:20px;
+
+border-radius:12px;
+
+margin-top:20px;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>🏢 Minha Empresa</h1>
+
+<h2 id="empresa"></h2>
+
+<div class="card">
+
+<p>Caixa</p>
+
+<h2>R$ 100.000</h2>
+
+<hr>
+
+<p>Clientes</p>
+
+<h2>500</h2>
+
+<hr>
+
+<p>Reputação</p>
+
+<h2>★★★★★</h2>
+
+</div>
+
+<script>
+
+document.getElementById("empresa").innerHTML=
+
+localStorage.getItem("usuario");
+
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Painel do Professor</title>
+
+<style>
+
+body{
+
+font-family:Arial;
+
+background:#111827;
+
+color:white;
+
+padding:40px;
+
+}
+
+.card{
+
+background:#1f2937;
+
+padding:20px;
+
+border-radius:12px;
+
+margin-top:20px;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>👨‍🏫 Painel do Professor</h1>
+
+<h2 id="nome"></h2>
+
+<div class="card">
+
+<h3>Bem-vindo ao Business War</h3>
+
+<p>Na próxima etapa teremos:</p>
+
+<ul>
+
+<li>Cadastro de empresas</li>
+
+<li>Ranking</li>
+
+<li>Missões</li>
+
+<li>Eventos</li>
+
+<li>Economia</li>
+</ul>
+
+</div>
+
+<script>
+
+document.getElementById("nome").innerHTML=
+
+localStorage.getItem("usuario");
+
+</script>
+
+</body>
+
+</html>
